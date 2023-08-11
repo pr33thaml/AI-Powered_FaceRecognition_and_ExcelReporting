@@ -53,7 +53,7 @@ My python project is based on identifying familiar faces in group photos, genera
    - Change this `r"folder path here"`  to your training images folder path
      - Run train_faces.py and wait for the training to finish, now you will get a encodings.pickle file in the same dir.
        - Run recognize_faces.py to browse and select a group photo and generate the Excel report.
-        - Excel report will be stored in the same dir as encodings.pickle
+         - Excel report will be stored in the same dir as encodings.pickle
 
 ## Directory Structure
 - recognize_faces.py: Main script for recognizing faces in a group photo.
