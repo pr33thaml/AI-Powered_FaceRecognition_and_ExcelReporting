@@ -19,7 +19,7 @@ My python project is based on identifying familiar faces in group photos, genera
 
 ### Prerequisites and instructions
 
-- Python 3.7 or 3.8 required | check this using this command in cmd: "python --version"
+- Python 3.7 or 3.8 required | check this using the command in cmd: "python --version"
 
 ## libraries and software components needed
 
@@ -38,7 +38,7 @@ My python project is based on identifying familiar faces in group photos, genera
     - open cmd as admin>`py -m pip install openpyxl` use the code> type py and import openpyxl> if you do not get any errors, the library has installed perfectly.
     
 - **CMake**
-    - It helps developers build and organize their code on different types of computers without too much hassle.
+    - It helps developers build and organize their code on different types of computers without too much hassle. Downkiad and install latest version from https://cmake.org/download/
 - **Dlib**
     - It can find faces, figure out who they belong to, and even tell you where the eyes, nose, and mouth are on a face.
 - **Visual Studio C++**
@@ -46,8 +46,8 @@ My python project is based on identifying familiar faces in group photos, genera
     - It is required for creating a Dlib build without any errors
 - **face_recognition library**
     - Specifically designed for face detection and recognition in images. It finds faces and can even identify who they belong to.
-    - Create a new folder>name it> open cmd> iterate into this folder path using cd
     - Install face_recognition lib using this command in cmd: pip install face_recognition
+    - if you get any error make sure that CMake & Visual Studio C++ are both installed properly and also make sure python version is either 3.7 or 3.8 and no the latest version.
 
 ## Usage
 
