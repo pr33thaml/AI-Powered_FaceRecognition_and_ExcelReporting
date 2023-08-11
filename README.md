@@ -56,11 +56,11 @@ Run recognize_faces.py to browse and select a group photo and generate the Excel
 Excel report will be stored in the same dir as encodings.pickle
 
 ## Directory Structure
-recognize_faces.py: Main script for recognizing faces in a group photo.
-train_faces.py: Script for training face images and creating encodings.
-requirements.txt: List of required Python packages.
-roll numbers/: Folder name containing roll number data with face photos for training.
-group pics/: Folder containing group photos for recognition.
+- recognize_faces.py: Main script for recognizing faces in a group photo.
+- train_faces.py: Script for training face images and creating encodings.
+- requirements.txt: List of required Python packages.
+- roll numbers/: Folder name containing roll number data with face photos for training.
+- group pics/: Folder containing group photos for recognition.
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to the project, feel free to fork the repository and submit pull requests.
