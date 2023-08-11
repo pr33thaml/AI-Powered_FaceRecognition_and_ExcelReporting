@@ -22,16 +22,7 @@ My python project is based on identifying familiar faces in group photos, genera
 - Python 3.7 or 3.8 required | check this using the command in cmd: "python --version"
 
 ## libraries and software components needed
-
-- **open-cv python library**
-    - Helps with image and video processing, including tasks like loading images, editing, and detecting objects.
-    - install this library using cmd, with this code: 
-    **pip install opencv-python**
-    - Verify using IDLE (can be found in startmenu) with this code: (output must be the version of the library):
-    import cv2
-    print(cv2.__version__)
-   
-    
+       
 - ******openpyxl library******
     - It helps read, write, and modify Excel spreadsheets.
     - In this program, it's used to save recognized roll numbers in an Excel file.
@@ -39,6 +30,13 @@ My python project is based on identifying familiar faces in group photos, genera
     
 - **CMake**
     - It helps developers build and organize their code on different types of computers without too much hassle. Downkiad and install latest version from https://cmake.org/download/
+- **open-cv python library**
+    - Helps with image and video processing, including tasks like loading images, editing, and detecting objects.
+    - install this library using cmd, with this code: 
+    **pip install opencv-python**
+    - Verify using IDLE (can be found in startmenu) with this code: (output must be the version of the library):
+    import cv2
+    print(cv2.__version__)
 - **Dlib**
     - It can find faces, figure out who they belong to, and even tell you where the eyes, nose, and mouth are on a face.
 - **Visual Studio C++**
