@@ -23,7 +23,7 @@ My python project is based on identifying familiar faces in group photos, genera
 
 ## libraries and software components needed
 
-**open-cv python library**
+- **open-cv python library**
     - Helps with image and video processing, including tasks like loading images, editing, and detecting objects.
     - install this library using cmd, with this code: 
     **pip install opencv-python**
